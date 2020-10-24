@@ -22,7 +22,7 @@ This project is a personal portfolio website to show potential employers. The we
 
 
 ## Visual:
-![Website Screenshot About Me](./images/AboutMePhoto.jpg)
+![Website Screenshot About Me](./images/AboutMe.jpg)
 
 ![Website Screenshot Portfolio](./images/Portfolio.jpg)
 
