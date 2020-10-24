@@ -22,11 +22,11 @@ This project is a personal portfolio website to show potential employers. The we
 
 
 ## Visual:
-[Website Screenshot About Me](images/AboutMe.jpg)
+![Website Screenshot About Me](images/AboutMe.png)
 
-[Website Screenshot Portfolio](images/Portfolio.jpg)
+![Website Screenshot Portfolio](images/Portfolio.png)
 
-[Website Screenshot Contact Me](images/ContactMe.jpg)
+![Website Screenshot Contact Me](images/ContactMe.png)
 
 
 [Gitpages Link](https://jordanks93.github.io/homework2-responsive-portfolio/)
