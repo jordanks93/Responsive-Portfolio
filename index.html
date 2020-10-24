@@ -6,16 +6,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>My Responsive Portfolio</title>
+  <title>Jordan's Portfolio Webpage</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+  
 </head>
 
 <body>
-    <!--Navigation bar provided links to other html files-->  
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!--Navigation bar provides the user links to other html files-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <span class="navbar-brand mb-1 h1">Jordan Stuckman</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,8 +36,10 @@
     </div>
   </nav>
 
+  <!--About Me Section-->
+  <section>
   <div class="container-md w-75 float-left mx-5 mt-5">
-    <div class="p-3 mb-2 bg-secondary text-white"> 
+    <div class="p-3 mb-2 bg-secondary text-white">
       <div class="row ml-2">
         <div class="col-sm-12">
           <div class="page-header">
@@ -48,30 +50,35 @@
       </div>
       <div class="row ml-2">
         <div class="col-sm-12">
-            <img src="http://placehold.it/150x150" class= "rounded float-left mr-2 mb-2" alt="Placeholder">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-              posuere sem congue a.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-              luctus enim. 
-            </p>
+          <img src="images/AboutMePhoto.jpg" width="150" height="150" class="rounded float-left mr-2 mb-2"
+            alt="Picture of me (Jordan Stuckman)">
+          <p>
+            <smaller>My name is Jordan Stuckman. I am an aspiring web-developer based in Columbus, OH. I have been employed at
+            Alliance Data Systems for the last 6 years, where I work as a fraud detection analyst. I recently recieved my bachelors
+            degree in Marketing in May of 2019 and continue to further my education. Currently, I am completing a web development
+            bootcamp offered by The Ohio State University, which will end in April 2020. I am currently seeking a role as junior web developer. You can view my LinkedIn profile and Github with the links provided below.
+            </smaller>
+            <a href="https://www.linkedin.com/in/jordan-stuckman-42a9b987/">LinkedIn</a>
+            <a href="https://github.com/jordanks93">Github</a>
+          </p>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!--Script allows nav bar to run--> 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </body>
 
+<!--Footer-->
+<footer>
+  <nav class="navbar fixed-bottom navbar-light bg-dark">
+    <a class="navbar-brand" href="#">©Copyright</a>
+  </nav>
+</footer>

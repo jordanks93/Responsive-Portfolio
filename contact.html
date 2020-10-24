@@ -6,11 +6,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>My Contact Site</title>
+  <title>Contact Me</title>
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+  
 </head>
 
 <body>
@@ -36,11 +36,12 @@
         </div>
     </nav>
     
-    <div class="container-md w-75 float-left mx-5 mt-5">
+    <!--Form allows user to input contact info and message, not working yet-->
     <form>
+    <div class="container-md w-75 float-left mx-5 mt-5">
     <div class="p-3 mb-2 bg-secondary text-white">
       <div class="page-header">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
             <hr>
         </div>
       <div class="form-row pr-5">
@@ -55,17 +56,22 @@
       </div>
       <div class="form-row pr-5">
         <div class="col-sm-12">
-            <textarea class="form-control my-2" id="exampleFormControlTextarea1" rows="3">Message</textarea>
+            <textarea class="form-control my-2 mb-3" id="exampleFormControlTextarea1" rows="3">Message</textarea>
         </div>
       </div>
       <button type="submit" class="btn btn-primary mb-2 bg-dark text-white">Submit</button>
     </div>
-    </form>
     </div>
-    
+  </form>
 
-
-
+    <!--Script allows nav bar to run--> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
+
+<!--Footer-->
+<footer>
+  <nav class="navbar fixed-bottom navbar-light bg-dark">
+    <a class="navbar-brand" href="#">©Copyright</a>
+  </nav>
+</footer>
