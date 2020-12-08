@@ -10,12 +10,31 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<!-- 1. Display your full name, email, and phone number
+
+2. Have links to your GitHub profile and LinkedIn profile
+
+3. Have a link to a downloadable PDF of your resume
+
+4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+
+    * Project title
+
+    * Link to the deployed version
+
+    * Link to the GitHub repository
+
+    * Screenshot of the deployed application
+
+5. Have a polished, mobile-responsive user interface. -->
+
+<body class="bg-dark">
     <!--Navigation bar provided links to other html files-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <span class="navbar-brand mb-1 h1">Jordan Stuckman</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,8 +57,7 @@
     
     <!--Form allows user to input contact info and message, not working yet-->
     <form>
-    <div class="container-md w-75 float-left mx-5 mt-5">
-    <div class="p-3 mb-2 bg-secondary text-white">
+    <div class="container mx-auto mt-5 p-3 border border-secondary rounded bg-secondary text-white">
       <div class="page-header">
         <h2>Contact Me</h2>
             <hr>
@@ -61,7 +79,6 @@
       </div>
       <button type="submit" class="btn btn-primary mb-2 bg-dark text-white">Submit</button>
     </div>
-    </div>
   </form>
 
     <!--Script allows nav bar to run--> 
@@ -71,7 +88,7 @@
 
 <!--Footer-->
 <footer>
-  <nav class="navbar fixed-bottom navbar-light bg-dark">
-    <a class="navbar-brand" href="#">©Copyright</a>
+  <nav class="navbar fixed-bottom navbar-light bg-secondary">
+    <a class="navbar-brand text-white" href="#">©Copyright</a>
   </nav>
 </footer>

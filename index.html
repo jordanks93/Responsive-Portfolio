@@ -10,12 +10,31 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<!-- 1. Display your full name, email, and phone number
+
+2. Have links to your GitHub profile and LinkedIn profile
+
+3. Have a link to a downloadable PDF of your resume
+
+4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+
+    * Project title
+
+    * Link to the deployed version
+
+    * Link to the GitHub repository
+
+    * Screenshot of the deployed application
+
+5. Have a polished, mobile-responsive user interface. -->
+
+<body class="bg-dark">
   <!--Navigation bar provides the user links to other html files-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
     <span class="navbar-brand mb-1 h1">Jordan Stuckman</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +57,9 @@
 
   <!--About Me Section-->
   <section>
-  <div class="container-md w-75 float-left mx-5 mt-5">
-    <div class="p-3 mb-2 bg-secondary text-white">
+    <div class="container mx-auto mt-5 p-3 border border-secondary rounded bg-secondary text-white">
       <div class="row ml-2">
-        <div class="col-sm-12">
+        <div class="col-12">
           <div class="page-header">
             <h2>About Me</h2>
             <hr>
@@ -49,25 +67,33 @@
         </div>
       </div>
       <div class="row ml-2">
-        <div class="col-sm-12">
-          <img src="images/AboutMePhoto.jpg" width="150" height="150" class="rounded float-left mr-2 mb-2"
+        <div class="col-12">
+          <img src="images/AboutMePhoto.jpg" width="150" height="150" class="rounded float-left mr-3"
             alt="Picture of me (Jordan Stuckman)">
           <p>
-            <smaller>My name is Jordan Stuckman. I am an aspiring web-developer based in Columbus, OH. I have been employed at
-            Alliance Data Systems for the last 6 years, where I work as a fraud detection analyst. I recently recieved my bachelors
-            degree in Marketing in May of 2019 and continue to further my education. Currently, I am completing a web development
-            bootcamp offered by The Ohio State University, which will end in April 2020. I am currently seeking a role as junior web developer. You can view my LinkedIn profile and Github with the links provided below.
+            <smaller>My name is Jordan Stuckman. I am an aspiring web-developer based in Columbus, OH. I have been
+              employed at
+              Alliance Data Systems for the last 6 years, where I work as a fraud detection analyst. I recently recieved
+              my bachelors
+              degree in Marketing in May of 2019 and continue to further my education. Currently, I am completing a web
+              development
+              bootcamp offered by The Ohio State University, which will end in April 2020. I am currently seeking a role
+              as junior web developer. You can view my LinkedIn profile and Github with the links provided below.
             </smaller>
-            <a href="https://www.linkedin.com/in/jordan-stuckman-42a9b987/">LinkedIn</a>
-            <a href="https://github.com/jordanks93">Github</a>
           </p>
+
+          <label for="linkedIn">LinkedIn:</label>
+          <a id="linkedIn" class="text-danger" href="https://www.linkedin.com/in/jordan-stuckman-42a9b987/">LinkedIn profile</a>
+          <br>
+          <label for="gitHub">Github:</label>
+          <a id="gitHub" class="text-danger" href="https://github.com/jordanks93">Github repository</a>
+
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-  <!--Script allows nav bar to run--> 
+  <!--Script allows nav bar to run-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -78,7 +104,7 @@
 
 <!--Footer-->
 <footer>
-  <nav class="navbar fixed-bottom navbar-light bg-dark">
-    <a class="navbar-brand" href="#">©Copyright</a>
+  <nav class="navbar fixed-bottom navbar-light bg-secondary">
+    <a class="navbar-brand text-white" href="#">©Copyright</a>
   </nav>
 </footer>
