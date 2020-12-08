@@ -1,6 +1,4 @@
-# homework2-responsive-portfolio
-
-#My Portfolio Website
+# My Portfolio Website
 
 ## Project Name: Bootcamp Homework 2 - Responsive Portfolio
 
