@@ -1,8 +1,6 @@
-# homework2-responsive-portfolio
+# My Portfolio Website
 
-#My Portfolio Website
-
-## Project Name: Bootcamp Homework 2 - Responsive Portfolio
+## Project Name: Responsive Portfolio
 
 ## Description:
 This project is a personal portfolio website to show potential employers. The website is divided into 3 pages: About Me(index.html), Contact Me(contact.html), Portfolio(portfolio.html). Bootstrap used to format and style the site.
@@ -18,9 +16,6 @@ This project is a personal portfolio website to show potential employers. The we
   * displays a photo gallery of web development projects I have completed 
 
     
-
-
-
 ## Visual:
 ![Website Screenshot About Me](./images/AboutMe.PNG)
 
