@@ -24,7 +24,7 @@ This project is a personal portfolio website to show potential employers. The we
 ![Website Screenshot Contact Me](./images/ContactMe.PNG)
 
 
-[Gitpages Link](https://jordanks93.github.io/homework2-responsive-portfolio/)
+[Gitpages Link](https://jordanks93.github.io/Responsive-Portfolio/)
 
 
 ## Author: 
