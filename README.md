@@ -1,5 +1,3 @@
-# My Portfolio Website
-
 ## Project Name: Responsive Portfolio
 
 ## Description:
