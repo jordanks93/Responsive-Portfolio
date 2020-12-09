@@ -11,26 +11,27 @@ p {
 } */
 
 #contactForm {
-    height: 375px;
-    width: 375px;
+    height: 370px;
+    width: 345px;
 }
 
 #contactForm button {
-    margin-left: 265px;
+    margin-left: 235px;
 }
 
 #aboutMe {
     margin: auto;
-    width: 95%;
+    width: 90%;
     text-align: left;
 }
 
 #portfolioGal {
     margin: auto;
-    width: 95%;
+    width: 90%;
 }
 
 #linkList {
+    align-items: center;
     text-align: center;
 }
 
