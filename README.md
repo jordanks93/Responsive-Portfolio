@@ -15,7 +15,7 @@ This project is a personal portfolio website to show potential employers. The we
   * displays a contact form
   * users can enter their contact information and a short message (not functional yet)
 
-# List of technologies used
+# List of technologies used:
   * HTML
   * CSS
 
