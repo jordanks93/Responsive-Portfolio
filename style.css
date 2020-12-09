@@ -5,3 +5,44 @@ hr {
 p {
     font-size: large;
 }
+
+/* body {
+    background-image: url('https://wallpaperaccess.com/full/396538.jpg';
+} */
+
+#contactForm {
+    height: 375px;
+    width: 375px;
+}
+
+#contactForm button {
+    margin-left: 265px;
+}
+
+#aboutMe {
+    margin: auto;
+    width: 95%;
+    text-align: left;
+}
+
+#portfolioGal {
+    margin: auto;
+    width: 95%;
+}
+
+#linkList {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+#portfolioGal img {
+    width:  475px;
+    height: 250px;
+}
+
+nav ul{
+    align-items: center;
+}
