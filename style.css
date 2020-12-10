@@ -3,12 +3,13 @@ hr {
 }
 
 p {
-    font-size: large;
+    font-size: 1rem;
 }
 
-/* body {
-    background-image: url('https://wallpaperaccess.com/full/396538.jpg';
-} */
+body {
+    /* background-image: url('https://wallpaperaccess.com/full/396538.jpg'; */
+    font-family: 'Noto Sans JP', sans-serif;
+} 
 
 #contactForm {
     height: 370px;
@@ -20,7 +21,6 @@ p {
 }
 
 #aboutMe {
-    margin: auto;
     width: 90%;
     text-align: left;
 }
@@ -31,12 +31,12 @@ p {
 }
 
 #linkList {
-    align-items: center;
     text-align: center;
 }
 
 h6 {
     text-align: center;
+    margin-right: 25px;
 }
 
 #portfolioGal img {
