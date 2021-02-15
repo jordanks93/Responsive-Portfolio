@@ -26,7 +26,7 @@ app.use(express.static("public"));
 
 // Routes
 //htmlRouter(app);
-//apiRouter(app);
+apiRouter(app);
 
 // Starts the server to begin listening
 // =============================================================
