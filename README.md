@@ -16,17 +16,21 @@ This project is a personal portfolio website to show potential employers. The we
 # List of technologies used:
   * HTML
   * CSS
+  * JQuery
+  * Javascript
+  * Sequelize
+  * Express
 
     
 ## Visual:
-![Website Screenshot About Me](./images/Index.png)
+![Website Screenshot About Me](/public/images/Index.png)
 
-![Website Screenshot Portfolio](./images/newPortfolio.png)
+![Website Screenshot Portfolio](/public/images/newPortfolio.jpg)
 
-![Website Screenshot Contact Me](./images/newContactMe.png)
+![Website Screenshot Contact Me](/public/images/newContactMe.png)
 
 
-[Gitpages Link](https://portfolio-jks.herokuapp.com/)
+[Heroku Link](https://portfolio-jks.herokuapp.com/)
 
 
 ## Author: 
