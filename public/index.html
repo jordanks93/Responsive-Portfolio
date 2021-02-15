@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jordan's Portfolio Webpage</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body class="bg-dark pb-5">
+  <!--Navigation bar provides the user links to other html files-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary border border-light text-white">
+    <span class="navbar-brand mb-1 h1">Jordan Stuckman</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--About Me Section-->
+  <section>
+    <div id="aboutMe"
+      class="container mt-5 mb-5 py-3 border border-secondary rounded bg-secondary text-white border border-light">
+      <div class="row ml-2">
+        <div class="col-12">
+          <div class="page-header">
+            <h2>About Me</h2>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row ml-2">
+        <div class="col-12">
+          <img src="images/AboutMePhoto.jpg" width="150" height="150" class="img-thumbnail float-left mr-3"
+            alt="Picture of me (Jordan Stuckman)">
+          <p>
+            My name is Jordan Stuckman. I am an aspiring web-developer based in Columbus, OH. I have been employed at
+            Alliance Data Systems
+            for the last 6 years, where I work as a fraud detection analyst. In May of
+            2019, I recieved my bachelors degree in Marketing. Currently, I am completing a web development bootcamp
+            offered by
+            The Ohio State University,
+            which will end in April 2020. I am seeking a role as junior web developer. You can view my
+            LinkedIn profile, Github repository and resume with the links provided below.
+          </p>
+          <br><br>
+          <hr>
+          <label for="linkedIn">LinkedIn:</label>
+          <a id="linkedIn" class="text-warning" href="https://www.linkedin.com/in/jordan-stuckman-42a9b987/"
+            target="_blank" rel="noopener noreferrer">jordan-stuckman-42a9b987</a>
+          <br>
+          <label for="gitHub">Github:</label>
+          <a id="gitHub" class="text-warning" href="https://github.com/jordanks93" target="_blank"
+            rel="noopener noreferrer">jordanks93</a>
+          <br>
+          <label for="resume">Resume:</label>
+          <a id="resume" class="text-warning"
+            href="https://drive.google.com/file/d/1t4EdHBg8wR34rloS4zMExBR1pid8Imz-/view?usp=sharing" target="_blank"
+            rel="noopener noreferrer">Downloadable Copy (Google Docs)</a>
+          <br>
+          <label for="email">Email:</label>
+          <a id="email" class="text-warning" href="">jordanks93@gmail.com</a>
+          <br>
+          <label for="phone">Phone:</label>
+          <a id="phone" class="text-warning" href="">(740) 360-0083</a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Script allows nav bar to run-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
+<!--Footer-->
+<footer>
+  <nav class="navbar fixed-bottom navbar-light bg-secondary border border-light">
+    <a class="navbar-brand text-white" href="#">©Stuckman 2020</a>
+  </nav>
+</footer>

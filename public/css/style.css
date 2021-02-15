@@ -1,0 +1,49 @@
+hr {
+    background-color: white;
+}
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    /* background-image: url('https://esupport.ws/wp-content/uploads/2014/06/dark-website-background.jpg'); */
+    font-family: 'Noto Sans JP', sans-serif;
+} 
+
+#contactForm {
+    height: 370px;
+    width: 345px;
+}
+
+#contactForm button {
+    margin-left: 235px;
+}
+
+#aboutMe {
+    width: 90%;
+    text-align: left;
+}
+
+#portfolioGal {
+    margin: auto;
+    width: 90%;
+}
+
+#linkList {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    margin-right: 25px;
+}
+
+#portfolioGal img {
+    width:  475px;
+    height: 250px;
+}
+
+nav ul{
+    align-items: center;
+}
